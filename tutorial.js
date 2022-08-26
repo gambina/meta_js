@@ -14,4 +14,13 @@ var dog = {
 };
 dog["type"] = "corgi";
 
-console.log(dog)
+console.log(typeof (dog))
+
+var str = "Hello";
+console.log(str.match("jello"));
+
+try {
+  Number(5).toPrecision(300)
+} catch (e) {
+  console.log("There was an error")
+}
